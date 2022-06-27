@@ -1,9 +1,10 @@
-import styled, { keyframes } from "styled-components";
+import styled from "styled-components";
 
 export const ProjectsMain= styled.section`
   margin: 0 auto;
   text-align: center;
   margin-bottom: 104px;
+  min-height: 600px;
 `
 
 export const Projects = styled.div`

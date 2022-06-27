@@ -1,10 +1,11 @@
-import { HeaderTag, HeaderWrapper, HeaderLinks, Link } from "./styles"
+import { Subtitle} from "../../styles"
+import { HeaderMain, HeaderWrapper, HeaderLinks, Link } from "./styles"
 
 export function Header(){
   return(
-    <HeaderTag>
+    <HeaderMain>
       <HeaderWrapper>
-        <span>ICON</span>
+        <Subtitle>&lt;Portfolio /&gt;</Subtitle>
         <HeaderLinks>
           <Link href="">Home</Link>
           <Link href="">Projects</Link>
@@ -12,6 +13,6 @@ export function Header(){
           <Link href="">Contact</Link>
         </HeaderLinks>
       </HeaderWrapper>
-    </HeaderTag>
+    </HeaderMain>
   )
 }

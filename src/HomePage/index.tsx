@@ -1,8 +1,10 @@
-import { Header } from "./components/Header"
+import { Header } from "./components/Header/Header"
 import { Container } from "./styles"
-import { HomeSection } from "./components/HomeSection"
-import { ProjectsSection } from "./components/ProjectsSection"
-import { AboutSection } from "./components/AboutSection"
+import { HomeSection } from "./components/HomeSection/HomeSection"
+import { ProjectsSection } from "./components/ProjectsSection/ProjectsSection"
+import { AboutSection } from "./components/AboutSection/AboutSection"
+import { ContactSection } from "./components/ContactSection/ContactSection"
+import { Footer } from "./components/Footer/Footer"
 
 export function HomePage(){
   return (
@@ -12,7 +14,9 @@ export function HomePage(){
         <HomeSection/>
         <ProjectsSection />
         <AboutSection />
+        {/* <ContactSection /> */}
       </Container>
+      <Footer/>
     </>
   )
 }

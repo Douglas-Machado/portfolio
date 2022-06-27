@@ -1,4 +1,5 @@
-import { Subtitle, TextWrapper, Main, Title, ProfileImage } from "./styles"
+import { TextWrapper, Main, ProfileImage } from "./styles"
+import { Title, Subtitle } from "../../styles"
 import "animate.css"
 
 import DouglasProfile from  "../../../assets/static/douglas.png"

@@ -2,10 +2,10 @@ import styled from "styled-components";
 
 export const Main = styled.main`
   margin: 0 auto;
-  height: 1000px;
+  min-height: 1000px;
   display: flex;
 
-  align-items: center
+  align-items: center;
 `
 
 export const TextWrapper = styled.div`
@@ -14,16 +14,6 @@ export const TextWrapper = styled.div`
   flex-direction: column;
 
   justify-content: center;
-`
-
-export const Subtitle = styled.h3`
-  color: white;
-  font-size: 28px;
-`
-
-export const Title = styled.h1`
-  color: white;
-  font-size: 48px;
 `
 
 export const ProfileImage = styled.img`

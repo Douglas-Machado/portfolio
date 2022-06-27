@@ -1,5 +1,5 @@
 import { ProjectsMain, Projects, PictureLink, ProjectPicture } from "./styles"
-import { Title } from "../HomeSection/styles"
+import { Title, Subtitle} from "../../styles"
 import "animate.css"
 
 import CurrencyConverterPicture from '../../../assets/static/currency-converter.png'
@@ -23,6 +23,20 @@ export function ProjectsSection(){
           <h2>Dway</h2>
           <PictureLink target="_blank" href="https://github.com/Douglas-Machado/dway">
             <ProjectPicture src={DwayPicture} alt="dway-picture" />
+          </PictureLink>
+        </div>
+        <div>
+          <h2>College API</h2>
+          <PictureLink target="_blank" href="https://github.com/Douglas-Machado/college-node">
+            <div style={{
+              borderRadius: "20px",
+              width: "calc(1260px/3)",
+              height: "211px",
+              background: "lightgrey",
+              paddingTop: "20%",
+            }}>
+              <Subtitle>API Backend</Subtitle>
+            </div>
           </PictureLink>
         </div>
         <div>

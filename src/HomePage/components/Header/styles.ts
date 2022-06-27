@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-export const HeaderTag = styled.header`
+export const HeaderMain = styled.header`
   background: rgba(202, 169, 169, 0);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(7.9px);
