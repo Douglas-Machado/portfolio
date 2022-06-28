@@ -1,9 +1,5 @@
 import styled from "styled-components"
 
-interface Ibtn {
-  active: boolean;
-}
-
 export const HeaderMain = styled.header`
   background: rgba(202, 169, 169, 0);
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -40,7 +36,7 @@ export const HeaderLogoSection = styled.div`
   }
 `
 
-export const ShowButton = styled.button<Ibtn>`
+export const ShowButton = styled.button`
   display: none;
   background: none;
   border: none;
@@ -50,13 +46,13 @@ export const ShowButton = styled.button<Ibtn>`
   }
 `
 
-export const HeaderLinks = styled.div<Ibtn>`
+export const HeaderLinks = styled.div`
   display: flex;
   justify-content: space-around;
   
   @media (max-width: 768px) {
-    display: ${props => props.active ? "block" : "none"};
     flex-direction: column;
+    display: none
   }
 `
 
