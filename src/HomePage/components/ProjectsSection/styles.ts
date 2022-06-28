@@ -10,7 +10,12 @@ export const ProjectsMain= styled.section`
 
 export const Projects = styled.div`
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-columns: 1fr 1fr 1fr;
+  
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+    margin: 0 auto;
+  }
 `
 
 export const PictureLink = styled.a`
@@ -22,4 +27,8 @@ export const ProjectPicture = styled.img`
   height: 211px;
   border: 2px solid black;
   border-radius: 20px;
+
+  @media (max-width: 768px) {
+    width: 80%
+  }
 `

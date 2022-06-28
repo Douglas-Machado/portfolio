@@ -5,6 +5,10 @@ export const AboutMain = styled.section`
   padding-top: 50px;
   min-height: 800px;
   text-align: center;
+
+  @media (max-width: 768px) {
+    min-height: 1000px;
+  }
 `
 
 export const About = styled.div`
@@ -17,10 +21,22 @@ export const About = styled.div`
 
 export const AboutMe = styled.div`
   text-align: right;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%
+  }
 `
 
 export const AboutEducation = styled.div`
   text-align: left;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%
+  }
 `
 
 export const Paragraph = styled.p`
@@ -32,4 +48,35 @@ export const AboutSkills = styled.div`
   text-align: right;
   display: flex;
   flex-direction: column;
+
+  @media (max-width: 768px) {
+    margin: 0 auto;
+    text-align: center;
+    max-width: 90%
+  }
+`
+
+export const Skills = styled.div` 
+  display: flex;
+  justify-content: right;
+  gap: 2%;
+
+  @media (max-width: 768px) {
+    justify-content: center;
+    display: flex;
+    min-width: 90%;
+    flex-wrap: wrap;
+  }
+`
+
+export const Skill = styled.div`
+  background-color: white;
+  border: 1px solid black;
+  border-radius: 6px;
+  min-width: 5.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5px;
+  margin: 1px 0;
 `

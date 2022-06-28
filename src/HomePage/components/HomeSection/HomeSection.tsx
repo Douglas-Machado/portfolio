@@ -14,9 +14,10 @@ export function HomeSection(){
         <Subtitle>Fullstack developer</Subtitle>
       </TextWrapper>
 
-      <ProfileImage className="animate__animated animate__pulse animate__repeat-2 animate__delay-1s" src={DouglasProfile} alt="douglas-profile" />
-
-      
+      <ProfileImage 
+        className="animate__animated animate__pulse animate__infinite animate__delay-1s" 
+        src={DouglasProfile} 
+        alt="douglas-profile" />
     </Main>
   )
 }

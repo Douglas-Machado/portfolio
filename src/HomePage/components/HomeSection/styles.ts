@@ -6,6 +6,13 @@ export const Main = styled.main`
   display: flex;
 
   align-items: center;
+
+  @media (max-width: 768px) {
+    padding-top: 200px;
+    flex-direction: column;
+    text-align: center;
+    gap: 100px;
+  }
 `
 
 export const TextWrapper = styled.div`
@@ -18,4 +25,8 @@ export const TextWrapper = styled.div`
 
 export const ProfileImage = styled.img`
   height: 528px;
+
+  @media (max-width: 768px) {
+    height: 350px;
+  }
 `

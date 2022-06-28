@@ -3,7 +3,7 @@ import styled from "styled-components";
 export const FooterMain = styled.footer`
   padding: 1.5rem 0;
   inset: auto 0;
-  background-color: #4a3a63;
+  background-color: #960c0c;
 `
 
 export const FooterWrapper = styled.div`
@@ -13,6 +13,10 @@ export const FooterWrapper = styled.div`
   column-gap: 300px;
   position: relative;
   text-align: center;
+
+  @media (max-width: 760px) {
+    grid-template-columns: 1fr;
+  }
 `
 
 export const Link = styled.a`
@@ -26,6 +30,12 @@ export const ContactInfosDiv = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
+
+  @media (max-width: 760px) {
+    flex-direction: column;
+    margin-bottom: 16px;
+    text-align: center;
+  }
 `
 
 export const ContactInfosSpan = styled.span`

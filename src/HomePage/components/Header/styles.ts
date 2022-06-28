@@ -1,4 +1,8 @@
-import styled from "styled-components";
+import styled from "styled-components"
+
+interface Ibtn {
+  active: boolean;
+}
 
 export const HeaderMain = styled.header`
   background: rgba(202, 169, 169, 0);
@@ -20,11 +24,40 @@ export const HeaderWrapper = styled.div`
   column-gap: 600px;
   position: relative;
   text-align: center;
+
+  @media (max-width: 768px) {
+    grid-template-columns: 1fr;
+  }
 `
 
-export const HeaderLinks = styled.div`
+export const HeaderLogoSection = styled.div`
+  margin: 0 auto;
+
+  @media (max-width: 768px) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+`
+
+export const ShowButton = styled.button<Ibtn>`
+  display: none;
+  background: none;
+  border: none;
+
+  @media (max-width: 768px) {
+    display: block;
+  }
+`
+
+export const HeaderLinks = styled.div<Ibtn>`
   display: flex;
   justify-content: space-around;
+  
+  @media (max-width: 768px) {
+    display: ${props => props.active ? "block" : "none"};
+    flex-direction: column;
+  }
 `
 
 export const ListItem = styled.li`

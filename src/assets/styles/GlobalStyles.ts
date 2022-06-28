@@ -10,7 +10,11 @@ export default createGlobalStyle`
 
   html,body{
     height: 100%;
-    background-color: #514663;
+    background-color: #B22727;
     font-family: 'Nunito', sans-serif;
+
+    @media (max-width: 768px) {
+      overflow-x: hidden;
+    }
   }
 `;

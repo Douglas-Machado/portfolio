@@ -5,6 +5,7 @@ import "animate.css"
 import CurrencyConverterPicture from '../../../assets/static/currency-converter.png'
 import DwayPicture from '../../../assets/static/dway.png'
 import SocialFriendsPicture from '../../../assets/static/social-friends.png'
+import "./styles.css"
 
 export function ProjectsSection(){
   return(
@@ -28,13 +29,7 @@ export function ProjectsSection(){
         <div>
           <h2>College API</h2>
           <PictureLink target="_blank" href="https://github.com/Douglas-Machado/college-node">
-            <div style={{
-              borderRadius: "20px",
-              width: "calc(1260px/3)",
-              height: "211px",
-              background: "lightgrey",
-              paddingTop: "20%",
-            }}>
+            <div  className="img-background">
               <Subtitle>API Backend</Subtitle>
             </div>
           </PictureLink>
