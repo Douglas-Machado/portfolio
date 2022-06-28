@@ -17,7 +17,7 @@ export const HeaderWrapper = styled.div`
   display: grid;
 
   grid-template-columns: 1fr 2fr;
-  column-gap: 300px;
+  column-gap: 600px;
   position: relative;
   text-align: center;
 `
@@ -27,11 +27,16 @@ export const HeaderLinks = styled.div`
   justify-content: space-around;
 `
 
-export const Link = styled.a`
-  &:visited {
-    color: white ;
-  }
+export const ListItem = styled.li`
+  list-style-type: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+`
+
+export const Button = styled.button`
+  background: none;
+  border: none;
   font-size: 1.5rem;
   color: white;
-  text-decoration: none;
 `

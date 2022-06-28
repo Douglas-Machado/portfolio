@@ -6,7 +6,7 @@ import {FaPhoenixFramework, FaReact, FaGithub} from "react-icons/fa"
 
 export function AboutSection(){
   return(
-    <AboutMain>
+    <AboutMain id="about">
       <Title>About</Title>
 
       <About>

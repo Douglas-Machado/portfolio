@@ -9,7 +9,7 @@ import { Footer } from "./components/Footer/Footer"
 export function HomePage(){
   return (
     <>
-      <Header />
+      <Header/>
       <Container>
         <HomeSection/>
         <ProjectsSection />

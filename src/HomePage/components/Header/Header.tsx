@@ -1,16 +1,25 @@
-import { Subtitle} from "../../styles"
-import { HeaderMain, HeaderWrapper, HeaderLinks, Link } from "./styles"
+import { Subtitle } from "../../styles"
+import { HeaderMain, HeaderWrapper, HeaderLinks, ListItem } from "./styles"
+import { Button, Link } from "react-scroll"
 
 export function Header(){
   return(
     <HeaderMain>
       <HeaderWrapper>
-        <Subtitle>&lt;Portfolio /&gt;</Subtitle>
+        <Subtitle style={{
+          cursor: "default",
+        }}>&lt;Portfolio /&gt;</Subtitle>
         <HeaderLinks>
-          <Link href="">Home</Link>
-          <Link href="">Projects</Link>
-          <Link href="">About</Link>
-          <Link href="">Contact</Link>
+          <ListItem>
+            <Link activeClass="active" to="home" spy={true} smooth={true}>Home</Link>
+          </ListItem>
+          <ListItem>
+            <Link to="projects" spy={true} smooth={true}>Projects</Link>
+          </ListItem>
+          <ListItem>
+            <Link to="about" spy={true} smooth={true}>About</Link>
+          </ListItem>
+          {/* <Button>Contact</Button> */}
         </HeaderLinks>
       </HeaderWrapper>
     </HeaderMain>

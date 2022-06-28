@@ -8,7 +8,7 @@ import SocialFriendsPicture from '../../../assets/static/social-friends.png'
 
 export function ProjectsSection(){
   return(
-    <ProjectsMain>
+    <ProjectsMain id="projects">
       <Title>Projects</Title>
       <Projects>
         <div>

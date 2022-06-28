@@ -2,9 +2,10 @@ import styled from "styled-components";
 
 export const ProjectsMain= styled.section`
   margin: 0 auto;
+  padding-top: 80px;
   text-align: center;
   margin-bottom: 104px;
-  min-height: 600px;
+  min-height: 740px;
 `
 
 export const Projects = styled.div`

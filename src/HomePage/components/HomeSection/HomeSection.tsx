@@ -6,7 +6,7 @@ import DouglasProfile from  "../../../assets/static/douglas.png"
 
 export function HomeSection(){
   return(
-    <Main>
+    <Main id="home">
 
       <TextWrapper>
         <Subtitle>Hi I am</Subtitle>
