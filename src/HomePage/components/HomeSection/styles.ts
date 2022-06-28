@@ -27,6 +27,6 @@ export const ProfileImage = styled.img`
   height: 528px;
 
   @media (max-width: 768px) {
-    height: 350px;
+    height: 320px;
   }
 `
