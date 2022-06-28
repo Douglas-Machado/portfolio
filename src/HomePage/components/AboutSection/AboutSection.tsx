@@ -26,7 +26,7 @@ export function AboutSection(){
 
         <AboutEducation>
           <Subtitle>Education</Subtitle>
-          <Paragraph>I have a technical degree in in I.T Management at Unicesumar.</Paragraph>
+          <Paragraph>I have a technical degree in I.T Management at Unicesumar.</Paragraph>
         </AboutEducation>
 
         <AboutSkills>
