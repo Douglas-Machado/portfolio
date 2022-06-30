@@ -41,7 +41,7 @@ export function ProjectsSection(){
               />
             </PictureLink>
             {showBox ? 
-            <Technologies>
+            <Technologies className="animate__animated animate__slideInDown">
               <DiGit fill="#F1502F"/>
               <FaGithub/>
               <DiHtml5 fill="#e34c26"/>
@@ -67,7 +67,7 @@ export function ProjectsSection(){
             />
           </PictureLink>
           {showBox ? 
-          <Technologies>
+          <Technologies className="animate__animated animate__slideInDown">
             <DiGit fill="#F1502F"/>
             <FaGithub/>
             <DiHtml5 fill="#e34c26"/>
@@ -96,7 +96,7 @@ export function ProjectsSection(){
             </div>
           </PictureLink>
           {showBox ? 
-          <Technologies>
+          <Technologies className="animate__animated animate__slideInDown">
             <DiGit fill="#F1502F"/>
             <FaGithub/>
             <SiJavascript fill="#f0db5f"/>
@@ -118,7 +118,7 @@ export function ProjectsSection(){
             />
           </PictureLink>
           {showBox ? 
-          <Technologies>
+          <Technologies className="animate__animated animate__slideInDown">
             <DiGit fill="#F1502F"/>
             <FaGithub/>
             <DiHtml5 fill="#e34c26"/>
