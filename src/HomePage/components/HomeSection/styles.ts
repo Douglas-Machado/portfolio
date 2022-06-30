@@ -8,7 +8,8 @@ export const Main = styled.main`
   align-items: center;
 
   @media (max-width: 768px) {
-    padding-top: 200px;
+    min-height: 1000px;
+    padding-top: 100px;
     flex-direction: column;
     text-align: center;
     gap: 100px;

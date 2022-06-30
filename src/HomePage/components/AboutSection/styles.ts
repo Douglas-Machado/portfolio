@@ -52,20 +52,37 @@ export const AboutSkills = styled.div`
   @media (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
-    max-width: 90%
+    max-width: 90%;
   }
 `
 
 export const Skills = styled.div` 
   display: flex;
-  justify-content: right;
-  gap: 2%;
+  flex-direction: column;
 
   @media (max-width: 768px) {
     justify-content: center;
     display: flex;
-    min-width: 90%;
     flex-wrap: wrap;
+  }
+`
+export const SkillsSection = styled.div`
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 24px;
+
+  @media (max-width: 768px) {
+    text-align: center;
+  }
+`
+
+export const SkillsSectionWrapper = styled.div`
+  display: flex;
+  justify-content: right;
+
+  @media (max-width: 768px) {
+    flex-wrap: wrap;
+    justify-content: center;
   }
 `
 
@@ -79,4 +96,9 @@ export const Skill = styled.div`
   justify-content: center;
   padding: 5px;
   margin: 1px 0;
+
+  @media (max-width: 768px) {
+    max-width: 4rem;
+    max-height: 5rem;
+  }
 `

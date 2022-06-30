@@ -25,10 +25,17 @@ export const PictureLink = styled.a`
 export const ProjectPicture = styled.img`
   width: calc(1200px/3);
   height: 211px;
-  border: 2px solid black;
   border-radius: 20px;
-
+  
+  box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.5);
   @media (max-width: 768px) {
     width: 80%
   }
+`
+
+export const Technologies = styled.div`
+  display: flex;
+  gap: 2%;
+  justify-content: center;
+  padding-top: 16px;
 `
