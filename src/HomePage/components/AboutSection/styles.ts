@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const AboutMain = styled.section`
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 80px;
   min-height: 800px;
   text-align: center;
 
