@@ -79,6 +79,7 @@ export const SkillsSection = styled.div`
 export const SkillsSectionWrapper = styled.div`
   display: flex;
   justify-content: right;
+  gap: 0.5rem;
 
   @media (max-width: 768px) {
     flex-wrap: wrap;
