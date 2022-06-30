@@ -58,6 +58,9 @@ export function AboutSection(){
             <SkillsSection>
               <Subtitle>Backend</Subtitle>
               <SkillsSectionWrapper>
+              <Skill title="JavaScript">
+                  <SiJavascript title="JavaScript" size={60} fill="#f0db5f"/>
+                </Skill>
                 <Skill title="Noje.js">
                   <SiNodedotjs title="Noje.js" size={70} fill="#3C873A"/>
                 </Skill>
