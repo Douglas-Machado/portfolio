@@ -31,7 +31,7 @@ export function ProjectsSection(){
           <h2>Currency Converter</h2>
             <PictureLink 
               target="_blank"
-              href="https://github.com/Douglas-Machado/currency-web"
+              href="https://currency-web-ten.vercel.app"
             >
               <ProjectPicture 
                 src={CurrencyConverterPicture} 
