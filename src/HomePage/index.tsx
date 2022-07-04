@@ -14,7 +14,6 @@ export function HomePage(){
         <HomeSection/>
         <ProjectsSection />
         <AboutSection />
-        {/* <ContactSection /> */}
       </Container>
       <Footer/>
     </>

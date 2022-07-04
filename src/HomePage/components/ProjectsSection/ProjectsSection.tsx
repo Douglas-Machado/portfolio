@@ -109,7 +109,7 @@ export function ProjectsSection(){
         </div>
         <div>
           <h2>Social Friends(Coming soon)</h2>
-          <PictureLink target="_blank" href="#">
+          <PictureLink target="_blank">
             <ProjectPicture 
               src={SocialFriendsPicture} 
               alt="social-friends-picture"
