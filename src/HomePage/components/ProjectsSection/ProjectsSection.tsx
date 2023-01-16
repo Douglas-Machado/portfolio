@@ -92,7 +92,7 @@ export function ProjectsSection(){
               onMouseOver={handleMouseOver}
               onMouseOut={handleMouseOut} 
             >
-              <Subtitle>API Backend</Subtitle>
+              <Subtitle>API</Subtitle>
             </div>
           </PictureLink>
           {showBox ? 

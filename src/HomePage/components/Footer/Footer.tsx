@@ -1,5 +1,5 @@
 import { FooterMain, FooterWrapper, Link, ContactInfosSpan, ContactInfosDiv } from "./styles"
-import {FaLinkedin, FaGithub} from "react-icons/fa"
+import { icons, IconImage } from "../../utils/icon"
 
 export function Footer(){
   return(
@@ -10,12 +10,17 @@ export function Footer(){
           <ContactInfosSpan>Made by Douglas C. Machado</ContactInfosSpan>
         </ContactInfosDiv>
         <div>
-            <Link target="_blank" href="https://www.linkedin.com/in/douglascmachado/">
-              <FaLinkedin size={50} fill="#007acc"/>
-            </Link>
-          <Link target="_blank" href="https://github.com/Douglas-Machado">
-            <FaGithub size={50} fill="black"/>
-          </Link>
+            {
+              icons.map(icon => {
+                if (icon.type.includes('social')) {
+                  return (
+                    <Link target="_blank" href={icon.link}>
+                      <IconImage item={icon}/>
+                    </Link>
+                  )
+                }
+              })
+            }
         </div>
       </FooterWrapper>
     </FooterMain>
