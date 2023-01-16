@@ -6,7 +6,7 @@ export const Container = styled.div`
 `
 
 export const Subtitle = styled.h3`
-  color: white;
+  color: black;
   font-size: 28px;
 `
 
