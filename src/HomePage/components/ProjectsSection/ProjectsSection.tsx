@@ -27,7 +27,7 @@ export function ProjectsSection(){
     <ProjectsMain id="projects">
       <Title>Projects</Title>
       <Projects>
-        <div>
+        {/* <div>
           <h2>Currency Converter</h2>
             <PictureLink 
               target="_blank"
@@ -55,7 +55,7 @@ export function ProjectsSection(){
               :
               ""
             }
-        </div>
+        </div> */}
         <div>
           <h2>Dway</h2>
           <PictureLink target="_blank" href="https://github.com/Douglas-Machado/dway">
