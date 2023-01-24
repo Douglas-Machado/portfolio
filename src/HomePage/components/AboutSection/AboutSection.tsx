@@ -27,7 +27,7 @@ export function AboutSection() {
 
         <AboutSkills>
           <div>
-            <Subtitle>Programming languagaes, frameworks and other</Subtitle>
+            <Subtitle>Programming languages, frameworks and other</Subtitle>
           </div>
           <Skills>
             <SkillsSection>
