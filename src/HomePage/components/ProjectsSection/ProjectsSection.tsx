@@ -4,7 +4,7 @@ import "animate.css"
 
 import CurrencyConverterPicture from '../../../assets/static/currency-converter.png'
 
-import {DiHtml5, DiCss3, DiGit} from "react-icons/di"
+import {DiHtml5, DiCss3, DiGit, DiPython} from "react-icons/di"
 import {SiTailwindcss, SiJavascript, SiNodedotjs, SiTypescript, SiPrisma, SiElixir, SiBootstrap} from "react-icons/si"
 import {FaReact, FaGithub, FaPhoenixFramework} from "react-icons/fa"
 
@@ -82,11 +82,8 @@ export function ProjectsSection(){
           }
         </div>
         <div>
-          <h2>College API</h2>
-          <PictureLink 
-            target="_blank" 
-            href="https://github.com/Douglas-Machado/college-node"
-          >
+          <h2>Video Downloader</h2>
+          <PictureLink target="_blank" href="https://github.com/Douglas-Machado/video-downloader">
             <div 
               className="img-background"
               onMouseOver={handleMouseOver}
@@ -97,11 +94,9 @@ export function ProjectsSection(){
           </PictureLink>
           {showBox ? 
           <Technologies className="animate__animated animate__slideInDown">
+            <DiPython fill="#4B8BBE"/>
             <DiGit fill="#F1502F"/>
             <FaGithub/>
-            <SiJavascript fill="#f0db5f"/>
-            <SiTypescript fill="#007acc"/>
-            <SiNodedotjs fill="#3C873A"/>
           </Technologies>
             :
             ""

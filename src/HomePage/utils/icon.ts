@@ -1,7 +1,7 @@
 import { IconType } from "react-icons/lib";
 import {DiCss3, DiGit, DiHtml5, DiPython, DiRuby} from "react-icons/di"
 import {
-    SiGo, SiJavascript, SiNodedotjs, SiTypescript, SiElixir, SiTailwindcss, SiPrisma,SiMongodb,
+    SiGo, SiJavascript, SiNodedotjs, SiTypescript, SiElixir, SiTailwindcss, SiPrisma, SiMongodb,
     SiPostgresql, SiMysql
 } from "react-icons/si"
 import {FaAws, FaDocker, FaGithub, FaLinkedin, FaPhoenixFramework, FaReact} from "react-icons/fa"
