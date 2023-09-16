@@ -38,7 +38,6 @@ export function AboutSection() {
                     if (icon.type.includes('frontend')) {
                       return (
                         <Skill
-                          title={icon.name}
                           key={icon.name}>
                           <IconImage
                             item={icon}

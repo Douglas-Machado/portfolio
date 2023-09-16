@@ -1,7 +1,7 @@
 import { IconType } from "react-icons/lib";
-import {DiCss3, DiGit, DiHtml5, DiPython, DiRuby} from "react-icons/di"
+import {DiCss3, DiDjango, DiGit, DiHtml5, DiPython, DiRuby} from "react-icons/di"
 import {
-    SiGo, SiJavascript, SiNodedotjs, SiTypescript, SiElixir, SiTailwindcss, SiPrisma, SiMongodb,
+    SiJavascript, SiNextdotjs, SiNodedotjs, SiTypescript, SiElixir, SiTailwindcss, SiPrisma, SiMongodb,
     SiPostgresql, SiMysql
 } from "react-icons/si"
 import {FaAws, FaDocker, FaGithub, FaLinkedin, FaPhoenixFramework, FaReact} from "react-icons/fa"
@@ -28,7 +28,8 @@ export function IconImage({ item }: IconImageParams) {
       style: {
         color: item.color,
         fontSize: item.size,
-      }
+      },
+      title: item.name
     },
     item.children,
   )
@@ -107,13 +108,21 @@ export const icons: IconsInterface[] = [
       color: "#fd4f00",
       children: null,
   },
+//   {
+//       name: "Go",
+//       size: 70,
+//       type: ["backend"],
+//       img: SiGo,
+//       color: "#00ADD9",
+//       children: null,
+//   },
   {
-      name: "Go",
-      size: 70,
-      type: ["backend"],
-      img: SiGo,
-      color: "#00ADD9",
-      children: null,
+    name: "Nextjs",
+    size: 70,
+    type: ["frontend"],
+    img: SiNextdotjs,
+    color: "#00000",
+    children: null,
   },
   {
       name: "Python",
@@ -205,4 +214,12 @@ export const icons: IconsInterface[] = [
       children: null,
       link: "https://www.linkedin.com/in/douglascmachado/",
   },
+  {
+    name: "Django",
+    size: 71,
+    type: ["backend"],
+    img: DiDjango,
+    color: "#092e20",
+    children: null,
+  }
 ]
