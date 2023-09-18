@@ -1,5 +1,5 @@
 import { IconType } from "react-icons/lib";
-import {DiCss3, DiDjango, DiGit, DiHtml5, DiPython, DiRuby} from "react-icons/di"
+import {DiCss3, DiDjango, DiGit, DiHtml5, DiPython} from "react-icons/di"
 import {
     SiJavascript, SiNextdotjs, SiNodedotjs, SiTypescript, SiElixir, SiTailwindcss, SiPrisma, SiMongodb,
     SiPostgresql, SiMysql
@@ -108,14 +108,6 @@ export const icons: IconsInterface[] = [
       color: "#fd4f00",
       children: null,
   },
-//   {
-//       name: "Go",
-//       size: 70,
-//       type: ["backend"],
-//       img: SiGo,
-//       color: "#00ADD9",
-//       children: null,
-//   },
   {
     name: "Nextjs",
     size: 70,
@@ -130,14 +122,6 @@ export const icons: IconsInterface[] = [
       type: ["backend"],
       img: DiPython,
       color: "#4B8BBE",
-      children: null,
-  },
-  {
-      name: "Ruby",
-      size: 70,
-      type: ["backend"],
-      img: DiRuby,
-      color: "#A91401",
       children: null,
   },
   {
