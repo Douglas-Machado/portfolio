@@ -45,17 +45,34 @@ export const Paragraph = styled.p`
 `
 
 export const AboutSkills = styled.div`
-  text-align: right;
-  display: flex;
-  flex-direction: column;
+display: flex;
 
-  @media (max-width: 768px) {
+@media (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
     max-width: 90%;
   }
 `
 
+export const SkillsContainer = styled.div`
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+`
+
+export const SkillDescriptionContainer = styled.div`
+  width: 50%;
+  `
+
+export const SkillDescriptionWrapper = styled.div`
+  margin: 20% 20%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+`
+  
 export const Skills = styled.div` 
   display: flex;
   flex-direction: column;
@@ -87,6 +104,17 @@ export const SkillsSectionWrapper = styled.div`
   }
 `
 
+export const SkillDescription = styled.p`
+  font-size: 24px;
+  font-weight: bold;
+  color: white;
+`
+
+export const SkillDescriptionPlaceholder = styled.p`
+  font-size: 32px;
+  font-weight: bold;
+`
+
 export const Skill = styled.div`
   background-color: white;
   border: 1px solid black;
@@ -97,6 +125,11 @@ export const Skill = styled.div`
   justify-content: center;
   padding: 5px;
   margin: 1px 0;
+
+  transition: background-color 400ms;
+  &:hover {
+    background-color: #b4ff8f;
+  }
 
   @media (max-width: 768px) {
     max-width: 4rem;

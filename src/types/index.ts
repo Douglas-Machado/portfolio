@@ -1,6 +1,6 @@
 import { IconType } from "react-icons/lib";
 
-export interface IconsInterface {
+export interface IIcon {
     name: string;
     size: number;
     type: Array<string>;
@@ -8,8 +8,9 @@ export interface IconsInterface {
     color: string;
     children: null;
     link?: string;
+    description?: string;
 }
 
 export type IconImageParams = {
-    item: IconsInterface;
+    item: IIcon;
 }
