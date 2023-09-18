@@ -1,4 +1,4 @@
-import styled from "styled-components"
+import styled from "styled-components";
 
 export const HeaderMain = styled.header`
   background: rgba(202, 169, 169, 0);
@@ -11,7 +11,7 @@ export const HeaderMain = styled.header`
   position: fixed;
   inset: auto 0;
   z-index: 10;
-`
+`;
 
 export const HeaderWrapper = styled.div`
   display: grid;
@@ -24,7 +24,7 @@ export const HeaderWrapper = styled.div`
   @media (max-width: 768px) {
     grid-template-columns: 1fr;
   }
-`
+`;
 
 export const HeaderLogoSection = styled.div`
   margin: 0 auto;
@@ -34,7 +34,7 @@ export const HeaderLogoSection = styled.div`
     flex-direction: column;
     justify-content: center;
   }
-`
+`;
 
 export const ShowButton = styled.button`
   display: none;
@@ -44,28 +44,28 @@ export const ShowButton = styled.button`
   @media (max-width: 768px) {
     display: block;
   }
-`
+`;
 
 export const HeaderLinks = styled.div`
   display: flex;
   justify-content: space-around;
-  
+
   @media (max-width: 768px) {
     flex-direction: column;
-    display: none
+    display: none;
   }
-`
+`;
 
 export const ListItem = styled.li`
   list-style-type: none;
   color: white;
   font-size: 1.5rem;
   cursor: pointer;
-`
+`;
 
 export const Button = styled.button`
   background: none;
   border: none;
   font-size: 1.5rem;
   color: white;
-`
+`;

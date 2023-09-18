@@ -14,7 +14,7 @@ export const Main = styled.main`
     text-align: center;
     gap: 100px;
   }
-`
+`;
 
 export const TextWrapper = styled.div`
   display: flex;
@@ -22,7 +22,7 @@ export const TextWrapper = styled.div`
   flex-direction: column;
 
   justify-content: center;
-`
+`;
 
 export const ProfileImage = styled.img`
   height: 528px;
@@ -30,4 +30,4 @@ export const ProfileImage = styled.img`
   @media (max-width: 768px) {
     height: 320px;
   }
-`
+`;

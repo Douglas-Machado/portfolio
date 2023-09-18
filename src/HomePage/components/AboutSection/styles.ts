@@ -9,7 +9,7 @@ export const AboutMain = styled.section`
   @media (max-width: 768px) {
     min-height: 1000px;
   }
-`
+`;
 
 export const About = styled.div`
   display: flex;
@@ -17,7 +17,7 @@ export const About = styled.div`
   flex-direction: column;
 
   gap: 100px;
-`
+`;
 
 export const AboutMe = styled.div`
   text-align: right;
@@ -25,9 +25,9 @@ export const AboutMe = styled.div`
   @media (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
-    max-width: 90%
+    max-width: 90%;
   }
-`
+`;
 
 export const AboutEducation = styled.div`
   text-align: left;
@@ -35,35 +35,35 @@ export const AboutEducation = styled.div`
   @media (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
-    max-width: 90%
+    max-width: 90%;
   }
-`
+`;
 
 export const Paragraph = styled.p`
   color: white;
   font-size: 18px;
-`
+`;
 
 export const AboutSkills = styled.div`
-display: flex;
+  display: flex;
 
-@media (max-width: 768px) {
+  @media (max-width: 768px) {
     margin: 0 auto;
     text-align: center;
     max-width: 90%;
   }
-`
+`;
 
 export const SkillsContainer = styled.div`
   width: 50%;
   display: flex;
   flex-direction: column;
   text-align: right;
-`
+`;
 
-export const SkillDescriptionContainer = styled.div`
+export const DescriptionContainer = styled.div`
   width: 50%;
-  `
+`;
 
 export const SkillDescriptionWrapper = styled.div`
   margin: 20% 20%;
@@ -71,9 +71,9 @@ export const SkillDescriptionWrapper = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-`
-  
-export const Skills = styled.div` 
+`;
+
+export const Skills = styled.div`
   display: flex;
   flex-direction: column;
 
@@ -82,7 +82,7 @@ export const Skills = styled.div`
     display: flex;
     flex-wrap: wrap;
   }
-`
+`;
 export const SkillsSection = styled.div`
   display: flex;
   flex-direction: column;
@@ -91,7 +91,7 @@ export const SkillsSection = styled.div`
   @media (max-width: 768px) {
     text-align: center;
   }
-`
+`;
 
 export const SkillsSectionWrapper = styled.div`
   display: flex;
@@ -102,18 +102,18 @@ export const SkillsSectionWrapper = styled.div`
     flex-wrap: wrap;
     justify-content: center;
   }
-`
+`;
 
 export const SkillDescription = styled.p`
   font-size: 24px;
   font-weight: bold;
   color: white;
-`
+`;
 
 export const SkillDescriptionPlaceholder = styled.p`
   font-size: 32px;
   font-weight: bold;
-`
+`;
 
 export const Skill = styled.div`
   background-color: white;
@@ -135,4 +135,4 @@ export const Skill = styled.div`
     max-width: 4rem;
     max-height: 5rem;
   }
-`
+`;

@@ -1,6 +1,6 @@
-.img-background{
+.img-background {
   border-radius: 20px;
-  width: calc(1200px/3);
+  width: calc(1200px / 3);
   height: 211px;
   background: lightgrey;
   padding-top: 20%;
@@ -8,12 +8,12 @@
   box-shadow: 20px 20px 10px 0px rgba(0, 0, 0, 0.5);
 }
 
-h2{
+h2 {
   padding: 0.5rem 0;
 }
 
 @media screen and (max-width: 768px) {
-  .img-background{
+  .img-background {
     margin: 0 auto;
     width: calc(80%);
   }
