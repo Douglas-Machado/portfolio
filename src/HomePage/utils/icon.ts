@@ -1,4 +1,3 @@
-import { IconType } from "react-icons/lib";
 import {DiCss3, DiDjango, DiGit, DiHtml5, DiPython} from "react-icons/di"
 import {
     SiJavascript, SiNextdotjs, SiNodedotjs, SiTypescript, SiElixir, SiTailwindcss, SiPrisma, SiMongodb,
@@ -6,20 +5,7 @@ import {
 } from "react-icons/si"
 import {FaAws, FaDocker, FaGithub, FaLinkedin, FaPhoenixFramework, FaReact} from "react-icons/fa"
 import * as React from "react";
-
-interface IconsInterface {
-    name: string;
-    size: number;
-    type: Array<string>;
-    img: IconType;
-    color: string;
-    children: null;
-    link?: string;
-}
-
-type IconImageParams = {
-    item: IconsInterface;
-}
+import { IconImageParams, IconsInterface } from "../../types";
   
 export function IconImage({ item }: IconImageParams) {
   return React.createElement(
