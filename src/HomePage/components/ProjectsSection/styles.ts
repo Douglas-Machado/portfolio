@@ -11,6 +11,7 @@ export const ProjectsMain = styled.section`
 export const Projects = styled.div`
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  gap: 2%;
 
   @media (max-width: 768px) {
     grid-template-columns: 1fr;

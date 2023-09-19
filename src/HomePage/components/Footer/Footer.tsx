@@ -21,7 +21,7 @@ export function Footer() {
           {icons.map((icon) => {
             if (icon.type.includes("social")) {
               return (
-                <Link target="_blank" href={icon.link}>
+                <Link key={icon.name} target="_blank" href={icon.link}>
                   <IconImage item={icon} />
                 </Link>
               );

@@ -10,6 +10,7 @@ import {
   SiMongodb,
   SiPostgresql,
   SiMysql,
+  SiSelenium,
 } from "react-icons/si";
 import {
   FaAws,
@@ -243,5 +244,15 @@ export const icons: IIcon[] = [
     children: null,
     description:
       "Django is a free and open-source, Python-based web framework that follows the model–template–views architectural pattern.",
+  },
+  {
+    name: "Selenium",
+    size: 60,
+    type: ["other"],
+    img: SiSelenium,
+    color: "#04e00c",
+    children: null,
+    description:
+      "Selenium is an open source umbrella project for a range of tools and libraries aimed at supporting browser automation.",
   },
 ];
