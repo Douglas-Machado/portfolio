@@ -30,7 +30,7 @@ export function AboutSkillsComponent() {
             <SkillDescriptionContainer skill={skill} />
           ) : (
             <SkillDescriptionPlaceholder>
-              *Hover a icon*
+              *mouse over for more information*
             </SkillDescriptionPlaceholder>
           )}
         </SkillDescriptionWrapper>

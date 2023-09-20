@@ -13,4 +13,5 @@ export interface IIcon {
 
 export type IconImageParams = {
   item: IIcon;
+  size?: number;
 };

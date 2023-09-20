@@ -23,13 +23,13 @@ import {
 import * as React from "react";
 import { IconImageParams, IIcon } from "../../types";
 
-export function IconImage({ item }: IconImageParams) {
+export function IconImage({ item, size }: IconImageParams) {
   return React.createElement(
     item.img,
     {
       style: {
         color: item.color,
-        fontSize: item.size,
+        fontSize: size || item.size,
       },
       title: item.name,
     },
@@ -79,7 +79,7 @@ export const icons: IIcon[] = [
       "TypeScript is a free and open-source high-level programming language developed by Microsoft that adds static typing with optional type annotations to JavaScript.",
   },
   {
-    name: "Nodejs",
+    name: "Node",
     size: 70,
     type: ["backend"],
     img: SiNodedotjs,
@@ -98,7 +98,7 @@ export const icons: IIcon[] = [
     description: "Tailwind CSS is an open source CSS framework.",
   },
   {
-    name: "Reactjs",
+    name: "React",
     size: 70,
     type: ["frontend"],
     img: FaReact,
@@ -148,7 +148,7 @@ export const icons: IIcon[] = [
       "Python is a high-level, general-purpose programming language. Its design philosophy emphasizes code readability with the use of significant indentation.",
   },
   {
-    name: "Prisma ORM",
+    name: "Prisma",
     size: 70,
     type: ["database"],
     img: SiPrisma,
