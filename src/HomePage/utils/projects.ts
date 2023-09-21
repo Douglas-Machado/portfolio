@@ -35,7 +35,7 @@ export const projects: IProject[] = [
   },
   {
     name: "ARAMID (Discord bot)",
-    githubLink: "https://github.com/Douglas-Machado/video-downloader",
+    githubLink: "https://github.com/Douglas-Machado/aram-bot",
     img: AramPicture,
     alt: "aram-bg",
     skills: ["Git", "Python", "Selenium"],
