@@ -27,6 +27,23 @@ export const UserInput = styled.input`
   }
 `;
 
+export const WhatsappLink = styled.button`
+  padding: 1em;
+  background-color: #25D366;
+  margin: 0 auto;
+  width: 20%;
+  border-radius: 12px;
+  &:hover {
+    cursor: pointer;
+  }
+`
+
+export const ContactsContainer = styled.div`
+  text-align: center;
+  margin-top: 2%;
+  width: 100%;
+`
+
 export const UserMessage = styled.textarea`
   border-radius: 8px;
   width: 50%;
